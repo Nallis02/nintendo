@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+    max-width: 100%;
+}
+/* estilos para el header */
+.header-subtitulo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url('../img/banner.jpg');
+    background-size: contain;
+    background-color: aqua;
+    /* width: 100%; */
+    height: 200px;
+    
+}
+.header-subtitulo section h2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+   
+}
+p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+/* estilos del main */
+body {
+    background-color: khaki;
+}
+.menu-card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card-container {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #0000ff31;
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 530px;
+    border-radius: 20px 20px 0 0;
+    margin: 10px;
+    
+}
+.card-container img {
+    border-radius: 20px 20px 0 0;
+    height: 150px;
+    width: 250px;
+}
+h3 {
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+span {
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 15px;
+}
+.card-textos p {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 75px;
+    align-items: center;
+    bottom: 20px;
+    background: #00669F;
+    border-radius: 4px;
+    color: #F3F3F3;
+    font-size: 16px;
+    width: 128px;
+    height: 40px;
+}
+ footer {
+     margin-top: 100px;
+     padding: 12px;
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     background-color: black;
+ }
